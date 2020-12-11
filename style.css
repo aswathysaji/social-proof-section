@@ -1,0 +1,103 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Spartan', sans-serif;
+    background-image: url(./images/bg-pattern-top-desktop.svg);
+}
+.main,.rating{
+  margin-top: 10%;
+  margin-left: 5%;
+}
+
+.para{
+  color:hsl(303, 10%, 53%);
+  font-weight: 500;
+}
+.rating-1{
+  margin-top:4% ;
+  margin-left: 10%;
+  width: 470px;
+  height: 55px;
+  background-color:  hsl(300, 24%, 96%);
+  border-radius: 0.5rem;
+}
+.rating-2{
+  width: 470px;
+  height: 55px;
+  background-color:  hsl(300, 24%, 96%);
+  border-radius: 0.5rem;
+  margin-top: 5%;
+  margin-left: 20%;
+}
+.rating-3{
+  width: 470px;
+  height: 55px;
+  background-color:  hsl(300, 24%, 96%);
+  border-radius: 0.5rem;
+  margin-top: 5%;
+  margin-left: 30%;
+}
+.rating-1 div,.rating-2 div,.rating-3 div{
+  display: inline-block;
+  text-align: center;
+}
+.rating-1 p,.rating-2 p,.rating-3 p{
+  color: hsl(300, 43%, 22%);
+  font-size: 15px;
+  font-weight: 700;
+}
+.heading h1{
+  font-weight: 700;
+  color: hsl(300, 43%, 22%);
+}
+.person-1,.person-2,.person-3{
+  margin-top: 3%;
+  width: 330px;
+  height: 250px;
+  border-radius: 0.8rem;
+  background-color: hsl(300, 43%, 22%);
+}
+.person-1{
+  margin-left: 5%;
+}
+.person-2{
+  margin-top: 5%;
+  margin-left: 3%;
+}
+.person-3{
+  margin-top:7% ;
+  margin-left: 3%;
+}
+.person{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+.content{
+  margin: 5%;
+}
+.name{
+  display: flex;
+  flex-direction: row;
+  margin-top: 15%;
+}
+.fullname{
+  margin-left: 10%;
+}
+.description{
+  margin-top: 5%;
+  font-size: 13px;
+  color:hsl(300, 24%, 96%);
+  font-weight: 500;
+  line-height: 1.5rem;
+}
+.attribution {
+  padding: 2%;
+    font-size: 15px;
+    text-align: center;
+  }
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+    text-decoration: none;
+  }
