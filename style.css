@@ -4,6 +4,8 @@ body{
     box-sizing: border-box;
     font-family: 'Spartan', sans-serif;
     background-image: url(./images/bg-pattern-top-desktop.svg);
+    background-position: left top;
+    background-repeat:no-repeat;
 }
 .main,.rating{
   margin-top: 10%;
